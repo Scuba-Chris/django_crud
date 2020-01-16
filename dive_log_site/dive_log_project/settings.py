@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dive_log.apps.DiveLogConfig'
 ]
 
 MIDDLEWARE = [
@@ -47,7 +48,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'dive_log.apps.DiveLogConfig'
 ]
 
 ROOT_URLCONF = 'dive_log_project.urls'

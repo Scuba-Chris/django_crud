@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="dive_entry">
+        <h3>{{ dive.title }}</h3>
+        <p>{{ dive.body }}</p>
+        <a href="{% url 'dive_delete' dive.pk %}">Delete dive</a>
+    </div>
+
+{% endblock content %}
